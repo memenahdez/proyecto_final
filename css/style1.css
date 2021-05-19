@@ -1,20 +1,70 @@
-/* Importación de fuentes de google fonts */ 
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 
+*{
+  margin: 0;
+}
+
+header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-top{
+  font-family:'Pangolin';
+  background-color: #fff;
+  width: 100%;
+  height: 90px;
+  opacity: 70%;
+  
+}
+
+
+.logo{
+  width: 60%;
+  float: left;
+
+}
+
+ul li a {
+  padding: 0 20px;
+}
 
 ul
 {
-list-style-type:none;
 margin:0;
-padding:0;
-background-color: #fff;
+padding-top: 10px;
+list-style-type: none;
+overflow: hidden;
+
 }
 
 body{
-  height: 100%; 
-  font-family: 'Noto Sans', sans-serif;
-  background-color: #dac7ac; 
+  font-family: 'Pangolin';
+  background-color: #CFC0B8;
 }
+
+main{
+  background-color: #CFC0B8;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+li a:hover {
+  background-color: #111;
+}
+
 
 
 .contact_form{  
@@ -35,7 +85,7 @@ input{
   border-radius: 5px;  
   border-style: solid; 
   border-width: 1px; 
-  border-color: #ab4493; 
+  border-color: #493a2e; 
   margin-top: 10px;  
   padding-left: 10px;
   margin-bottom: 20px; 
@@ -69,9 +119,8 @@ button{
   padding-right: 5px;   
   margin-bottom: 20px; 
   margin-top: 10px;   
-  text-transform: uppercase;
-  background-color: #ab4493; 
-  border-color: #ab4493; 
+  background-color: #F6F1ED; 
+  border-color: #F6F1ED; 
   border-style: solid; 
   border-radius: 10px;  
   width: 420px;   
@@ -80,8 +129,9 @@ button{
 
 
 button p{
-  color: #fff; 
-}
+  color:#707070;
+  font-family: Pangolin;
+  }
 
 
 span{
@@ -99,7 +149,7 @@ h1{
   font-size: 39px;  
   text-align: letf; 
   padding-bottom: 20px; 
-  color: #ab4493;
+  color: #533326;
 }
 
 
@@ -137,33 +187,25 @@ p{
   border: 1px solid #97d848;
 }
 
- .logo-footer {
-    margin-bottom: 40px;
- }
- footer {
-        color: grey;
- }
+ 
  footer p, a {
 font-size: 12px;
 font-family: 'Roboto', sans-serif;
 }
 footer h6 {
-font-family: 'Playfair Display', serif;
 margin-bottom: 40px;
 position: relative;
 }
 footer h6:after {
 position: absolute;
-content: "";
-background: grey;
 width: 12%;
 height: 1px;
 left: 0;
 bottom: -20px;
 }
  .btn-footer {
-             color: grey;
-          
+             color:#707070;
+
             text-decoration: none;
             border: 1px solid;
             border-radius: 43px;
@@ -198,10 +240,8 @@ border-radius: 0 16px 16px 0;
 padding: 2px 12px;
 }
  .social .fa {
-color: grey;
 font-size: 22px;
 padding: 10px 15px;
-background: #3c3c3c;
 }
  footer ul li {
 list-style: none;
@@ -219,4 +259,30 @@ a:hover {
 text-decoration: none;
 color: #f5f5f5 !important;
 
+}
+
+footer {
+  padding: 3%;
+  background-color: #F6F1ED;
+}
+
+
+.social {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10%;
+}
+
+.social-button {
+  width: 64px;
+  padding: 8%;
+}
+
+.img-fosshost {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
