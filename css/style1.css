@@ -3,9 +3,8 @@
 *{
   margin: 0;
 }
-
+/* Navegador*/
 header{
-  display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -16,24 +15,26 @@ header{
   width: 100%;
   height: 90px;
   opacity: 70%;
-  
 }
-
-
+.menu{
+  float: right;
+  padding: 10px 80px 0px 0px;
+}
 .logo{
-  width: 60%;
-  float: left;
+  width: 30%;
+  display: inline-block;
+  padding: 22px 0px 22px 80px;
 
 }
 
 ul li a {
-  padding: 0 20px;
+  padding: 0 40px;
 }
 
 ul
 {
 margin:0;
-padding-top: 10px;
+padding-top: 30px;
 list-style-type: none;
 overflow: hidden;
 
@@ -50,11 +51,12 @@ main{
 
 li {
   float: left;
+  font-size: 22px;
 }
 
 li a {
   display: block;
-  color: rgb(0, 0, 0);
+  color: #707070;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -62,10 +64,10 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color:#CFC0B8;
 }
 
-
+/* Empieza form*/
 
 .contact_form{  
   height: auto;
@@ -188,10 +190,9 @@ p{
 }
 
  
- footer p, a {
-font-size: 12px;
-font-family: 'Roboto', sans-serif;
-}
+/* Inicia el footer*/
+
+ 
 footer h6 {
 margin-bottom: 40px;
 position: relative;
@@ -234,11 +235,12 @@ font-style: italic;
 border: none;
 background:#232323;
     margin-left: -5px;
-color: #fff;
+color: rgb(161, 40, 40);
 outline: none;
 border-radius: 0 16px 16px 0;
 padding: 2px 12px;
 }
+
  .social .fa {
 font-size: 22px;
 padding: 10px 15px;
@@ -257,7 +259,7 @@ text-decoration:none;
 }
 a:hover {
 text-decoration: none;
-color: #f5f5f5 !important;
+color: #B68482 !important;
 
 }
 
@@ -271,8 +273,8 @@ footer {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  justify-content: center;
-  padding: 10%;
+  padding: 20px 500px 0px 0px;
+  width: 50%;
 }
 
 .social-button {
@@ -285,4 +287,13 @@ footer {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.contacto{
+  float: right;
+  padding:20px 0px 0px 500px
+}
+
+.imgW{
+ padding: 20px 100px 0px 0px;
 }
